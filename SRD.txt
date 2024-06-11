@@ -1,0 +1,91 @@
+Software Requirements Document
+
+1. Introduction:
+
+1.1 Purpose:
+The purpose of the blog application is to provide a platform for users to create, share, and interact with blog posts. Users can register, create personal profiles, post articles with text and images, comment on posts, and engage with other users.
+
+1.2 Scope:
+The application is designed for individual users who want to share their thoughts and experiences through blog posts. The scope includes user registration, authentication, profile management, post creation, commenting, and interaction with other users' content.
+
+2. Functional Requirements:
+
+2.1 User Authentication:
+2.1.1 Registration:
+Users must be able to create accounts by providing a username, password, email and contact number.
+User passwords should be securely stored using encryption.
+2.1.2 Login:
+Users must be able to log in securely using their registered credentials.
+Failed login attempts will be handled with appropriate error messages.
+2.1.3 Logout:
+Users must be able to log out, terminating their active session.
+
+2.2 User Profile:
+2.2.1 Profile Information:
+Users must have a profile that includes a display name and other relevant information.
+Users should be able to update their profile information.
+
+2.3 Posting and Viewing:
+2.3.1 Creating Posts:
+Users must be able to create new blog posts with text and images.
+Posts should support rich text formatting.
+2.3.2 Home Page:
+The home page should display a feed of posts in chronological order.
+Each post should include the author's information, post content, and options for interaction (e.g. comment).
+2.3.3 Viewing Posts:
+Users should be able to click on a post to view the full content and comments.
+
+2.4 Comments:
+2.4.1 Adding Comments:
+Users must be able to add comments to posts.
+Comments can be anonymous or linked to the logged-in user.
+Users should have the option to comment as anonymous.
+2.4.2 Viewing Comments:
+Each post should display comments, including the commenter's information and timestamp.
+
+2.5 User Interactions:
+2.5.1 Post Interactions:
+Users should be able to like or star posts.
+Users can delete their own posts and comments.
+2.5.2 Comment Settings:
+Users must have the option to enable or disable comments on their posts.
+
+2.6 Search:
+2.6.1 User Search:
+Users should be able to search for other users by username or display name.
+2.6.2 Post Search:
+Users should be able to search for posts by keywords or author.
+
+3. Non-Functional Requirements:
+3.1 Performance:
+3.2 Security:
+3.2.1 Password Security:
+User passwords must be securely stored using industry-standard encryption.
+
+3.3 User Interface:
+3.3.1 Intuitiveness:
+The user interface must be intuitive and user-friendly.
+3.3.2 Responsiveness:
+The design should be responsive and work well on various devices.
+
+3.4 Reliability:
+3.4.1 Data Integrity:
+Ensure data integrity through proper validation and error handling.
+
+4. External Interfaces:
+4.1 Database:
+4.1.1 Database Management System:
+The application will use MySQL as the database management system.
+4.1.2 Database Schema:
+Define the database schema to store user information, posts, and comments.
+
+5. Constraints:
+5.1 Software:
+The application requires a web server, database server, and compatible browsers.
+5.2 Regulatory:
+The application must comply with relevant data protection regulations.
+
+6. Assumptions and Dependencies:
+Users have access to a modern web browser.
+The application will be hosted on a reliable web server.
+
